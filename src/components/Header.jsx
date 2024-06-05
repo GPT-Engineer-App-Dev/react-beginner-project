@@ -1,6 +1,6 @@
 import { Box, Flex, Link, Spacer, Text, Input, InputGroup, InputRightElement, IconButton } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import { SearchIcon } from "@chakra-ui/icons";
+import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -24,7 +24,7 @@ const Header = () => {
           <InputRightElement>
             <IconButton
               aria-label="Search"
-              icon={<SearchIcon />}
+              icon={<FaSearch />}
               size="sm"
               colorScheme="brand"
             />
